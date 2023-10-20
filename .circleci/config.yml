@@ -9,7 +9,7 @@ jobs:
     environment:
       MY_VAR: "my-value"
     steps:
-      - checkout
+      - checkout 
       - run: echo $MY_VAR
       - run: node --version
       - run: npm install
